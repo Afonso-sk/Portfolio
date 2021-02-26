@@ -1,15 +1,17 @@
 /*estou a dizer que quando a minha tela ficar muito pequeno para
 jogar o menu pra baixo da logo*/
 @media screen and (max-width:700px){
-    .container_1{
+    .logo{
         display: flex;/*colocar tudo na mesma linha*/
         flex-direction: column;
-       
+        margin-bottom: -30px;
+        margin-left: 19px;  
     }
     /*mandar os botões para baixo quando a tela ficar muito pequena*/
     .btn{
         margin-top:  5px; /*espaçamento entre os botões para não ficarem colados*/
-        width: 300px;
+        width: 200px;
+        margin-top: 20px;;
     }
 }
 

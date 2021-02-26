@@ -6,6 +6,7 @@
     color:whitesmoke;
     box-sizing: border-box;
     font-family: 'poppins' , sans-serif;
+    text-decoration: none;
 
 }
 body{
@@ -106,7 +107,7 @@ left:150px ;
 }
  /*Formatação de botões*/
  .conteudo-principal .descricao{
-    margin-bottom: 40px
+    margin-bottom: 10px
     
 }
 .conteudo-principal h3{
@@ -116,25 +117,27 @@ left:150px ;
     margin-top:30 %;
     font-size: 30px;
     font-family: 'Trebuchet MS', Arial, sans-serif
-    margin-bottom: 30px
+    
    
     
 } 
 .conteudo-principal p{
     margin-top: 15px;
-    text-align: ;
+    font-family:'Trebuchet MS', Arial, sans-serif ;
 }
 
 /*Formatação botão*/
     .btn{
-        background-color: rgba(50,0,0,.50);
+        background-color: rgb(62, 124, 124);
         border: none;
-        color:cyan;
-        padding: 15px 50px;
-        margin-right: 50px;
+        color:white;
+        padding: 10px 30px;
+        border-radius: 10px;
+        margin-top:25px;;
          cursor: pointer;
          transition: 1s ease all;
-         font-size: 15px;
+         font-size: 16px;
+         
         
     }/*efeitos do botão*/
     .btn:hover{
@@ -146,8 +149,9 @@ left:150px ;
     }
    
     .container_2{
-        margin-left: 20px;
+        margin-left: 60px;
         text-align: justify;
+        margin-bottom: 50px;
         
 
     }
