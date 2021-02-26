@@ -13,6 +13,19 @@ jogar o menu pra baixo da logo*/
         width: 200px;
         margin-top: 20px;;
     }
+    .sobre-mim h2{
+        display: flex;/*colocar tudo na mesma linha*/
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-left: 180px;  
+        margin-top: 0px;
+    }
+    .sobre-mim p{
+        display: flex;/*colocar tudo na mesma linha*/
+        flex-direction: column;
+        margin-bottom: -30px;
+        margin-left: 50px;  
+    }
 }
 
 /*podemos fazer outro media query para texto */
@@ -21,4 +34,6 @@ jogar o menu pra baixo da logo*/
        width: 50%;
    } 
 }
+
+    
     
