@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+    padding: 0px;
+    color:whitesmoke;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+
+}
+body{
+    background:#f2f2f2  ;
+}
+nav .logo{
+    float: left;
+    color: white;
+    font-size: 27px;
+    font-weight: 600px;
+    line-height: 70px;
+    padding-left:60px;
+}
+nav{
+    background:#1b1b1b;
+    
+}
+nav::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+nav ul li{
+    float: left;
+    display: inline-block;
+    background-color: #1b1b1b;
+    margin: 0  5px;
+    margin-top: 10px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 18px;
+    padding: 8px 15px ;
+    padding-right: 10px;
+}
+/*Efeitos do menu*/
+nav ul li a:hover{
+    color: cyan;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff ;
+                
+}
+/*Tirar os efeitos no submenu*/
+nav ul ul li a:hover{
+    color:cyan;
+    box-shadow: none;
+}
+
+nav ul ul{
+    position: absolute;
+    top: :90px;
+    opacity: 0;
+    visibility:hidden;
+    transition: top .3s;
+} /*fazer aparecer o submenu*/
+nav ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    
+}
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+
+}
+nav ul ul ul li{
+    
+position: relative;
+top: -70px;;
+left:150px ;
+}
+
+/*Conteúdo principal*/
+/*Filme principal*/
+.conteudo-principal{
+    font-size: 16px;
+    /*Aplicar opacidade, transparencia na capa*/
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.30)100%),url('../img/sk.png');
+    height: 600px;
+    background-size: cover;/*para especicar tamanho da imagem*/
+    display: flex; /*joga os elementos em linha ou coluna*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;/*para que elementos comecem sempre da esquerda*/
+    
+}
+ /*Formatação de botões*/
+ .conteudo-principal .descricao{
+    margin-bottom: 40px
+    
+}
+.titulo{
+    margin-top:30 %;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', Arial, sans-serif
+    margin-bottom: 30px
+   
+    
+} 
+.conteudo-principal p{
+    margin-top: 15px;
+    text-align: ;
+}
+
+/*Formatação botão*/
+    .btn{
+        background-color: rgba(0,0,0,.50);
+        border: none;
+        color: white;
+        padding: 15px 50px;
+        margin-right: 50px;
+         cursor: pointer;
+         transition: 3s ease all;
+         font-size: 15px;
+        
+    }/*efeitos do botão*/
+    .btn:hover{
+        background-color: white;
+        color: black;
+    }
+    .btn i{
+        margin-right: 8px;/*espaçamento do botão com icone*/
+    }
+   
+    .container_2{
+        margin-left: 20px;
+        text-align: justify;
+        
+
+    }
+    .conteudo-principal .container_2{
+        width:70% ; /*ocupação do texto  na nossa tela*/
+
+    }
+    
