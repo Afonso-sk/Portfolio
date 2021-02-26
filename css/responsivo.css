@@ -26,6 +26,10 @@ jogar o menu pra baixo da logo*/
         margin-bottom: -30px;
         margin-left: 50px;  
     }
+    .sobre-mim img{
+        margin-top: 50px;
+        margin-left: 60px;
+    }
 }
 
 /*podemos fazer outro media query para texto */
