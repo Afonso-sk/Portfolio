@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Muli:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
+
 *{
     margin:0px;
     padding: 0px;
@@ -89,12 +91,12 @@ left:150px ;
 }
 
 /*Conteúdo principal*/
-/*Filme principal*/
 .conteudo-principal{
+    
     font-size: 16px;
     /*Aplicar opacidade, transparencia na capa*/
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.30)100%),url('../img/sk.png');
-    height: 600px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.30)100%),url('../img/bg1.jpg');
+    height: 700px;
     background-size: cover;/*para especicar tamanho da imagem*/
     display: flex; /*joga os elementos em linha ou coluna*/
     flex-direction: column;
@@ -106,6 +108,9 @@ left:150px ;
  .conteudo-principal .descricao{
     margin-bottom: 40px
     
+}
+.conteudo-principal h3{
+    margin-top: 10px;
 }
 .titulo{
     margin-top:30 %;
@@ -122,19 +127,19 @@ left:150px ;
 
 /*Formatação botão*/
     .btn{
-        background-color: rgba(0,0,0,.50);
+        background-color: rgba(50,0,0,.50);
         border: none;
-        color: white;
+        color:cyan;
         padding: 15px 50px;
         margin-right: 50px;
          cursor: pointer;
-         transition: 3s ease all;
+         transition: 1s ease all;
          font-size: 15px;
         
     }/*efeitos do botão*/
     .btn:hover{
-        background-color: white;
-        color: black;
+        background-color:#fff;
+        color:black;
     }
     .btn i{
         margin-right: 8px;/*espaçamento do botão com icone*/
