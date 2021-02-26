@@ -8,9 +8,11 @@
     text-decoration: none;
 
 }
+/*Body*/
 body{
     background:#f2f2f2  ;
 }
+/*logo*/
 nav .logo{
     float: left;
     color: white;
@@ -22,6 +24,7 @@ nav .logo{
 .logo a {
     color: whitesmoke;
 }
+/*Menu*/
 nav{
     background:#1b1b1b;
     position: fixed;
@@ -30,7 +33,7 @@ nav{
         padding: 0px ;
     
 }
-nav::after{
+nav:after{
     content: '';
     clear: both;
     display: table;
@@ -145,9 +148,9 @@ left:150px ;
         padding: 10px 30px;
         border-radius: 10px;
         margin-top:25px;;
-         cursor: pointer;
-         transition: 1s ease all;
-         font-size: 16px;
+        cursor: pointer;
+        transition: 1s ease all;
+        font-size: 16px;
          
         
     }/*efeitos do botão*/
@@ -170,6 +173,7 @@ left:150px ;
         width:70% ; /*ocupação do texto  na nossa tela*/
 
     }
+    /*Sobre mim*/
     .sobre-mim h2{
         
             display: flex;
