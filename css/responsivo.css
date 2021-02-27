@@ -5,7 +5,7 @@ jogar o menu pra baixo da logo*/
         display: flex;/*colocar tudo na mesma linha*/
         flex-direction: column;
         margin-bottom: -30px;
-        margin-left: 19px;  
+        margin-left: 0px;  
     }
     /*mandar os botões para baixo quando a tela ficar muito pequena*/
     .btn{
@@ -24,11 +24,13 @@ jogar o menu pra baixo da logo*/
         display: flex;/*colocar tudo na mesma linha*/
         flex-direction: column;
         margin-bottom: -30px;
-        margin-left: 50px;  
+        margin-left: 40px;  
+        margin-right: 40px;
     }
     .sobre-mim img{
         margin-top: 50px;
-        margin-left: 60px;
+        margin-left: 95px;
+        
     }
 }
 
@@ -36,7 +38,11 @@ jogar o menu pra baixo da logo*/
 @media screen and (min-width:1200px){
    .descricao{
        width: 50%;
+       
    } 
+.typed-text{
+    text-align: justify;
+}
 }
 
     
