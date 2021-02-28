@@ -17,7 +17,7 @@ jogar o menu pra baixo da logo*/
         display: flex;/*colocar tudo na mesma linha*/
         flex-direction: column;
         margin-bottom: 30px;
-        margin-left: 180px;  
+        margin-left: 150px;  
         margin-top: 0px;
     }
     .sobre-mim p{
@@ -29,9 +29,24 @@ jogar o menu pra baixo da logo*/
     }
     .sobre-mim img{
         margin-top: 50px;
-        margin-left: 95px;
+        margin-left: 40px;
+        width: 250px;
+        align-items: center;
         
     }
+    .skills .conhecimento{
+      
+        font-size: 25px;               
+    }
+    section {
+    margin-top: -40px;
+    }
+    .skills .skills-content,
+.contact .contact-content {
+    margin-left: -15px;
+    
+    
+}
 }
 
 /*podemos fazer outro media query para texto */

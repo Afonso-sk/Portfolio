@@ -191,7 +191,7 @@ left:150px ;
         
     margin-top: -150px;
     margin-left: 110px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     
 
 }
@@ -211,7 +211,7 @@ section {
     background-color:rgb(62, 124, 124, 0.1);
     border: none;
 }
-/*Conhecimento*/
+
 .skills .skills-content,
 .contact .contact-content {
     display: flex;
@@ -219,41 +219,46 @@ section {
     align-items: center;  
     justify-content: space-between;
     margin-top: 5px;
+    margin-left: 30px;
+    
+    
 }
 .skills .conhecimento{
-    text-align: left;
+    text-align: center;
     padding-bottom: 40px;
     margin-top: 20px;
     font-size: 35px;               
 }
+/*Conhecimento*/
 
 .skills .skills-content .column {
-    width: calc(40% - 30px);
+    width: calc(100% );
 }
-.skills .skills-content .right .bars {
+}
+.skills .skills-content .center .bars {
     margin-bottom: 15px;
 }
 
-.skills .skills-content .right .info {
+.skills .skills-content .center .info {
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
 
-.skills .skills-content .right span {
+.skills .skills-content .center span {
     font-weight: 500;
     font-size: 18px;
 }
 
-.skills .skills-content .right .line {
+.skills .skills-content .center .line {
     height: 5px;
     width: 100%;
     background: #fff;
     position: relative;
 }
 
-.skills .skills-content .right .line::before {
+.skills .skills-content .center .line::before {
     content: "";
     position: absolute;
     height: 100%;
@@ -262,38 +267,38 @@ section {
     background:cadetblue;
 }
 
-.skills-content .right .html::before {
+.skills-content .center .html::before {
    width: 90%;
 }
-.skills-content .right .css::before {
+.skills-content .center .css::before {
     width: 85%;
 }
-.skills-content .right .js::before {
+.skills-content .center .js::before {
     width: 70%;
 }
-.skills-content .right .bootstrap::before {
+.skills-content .center .bootstrap::before {
 
     width: 85%;
 }
-.skills-content .right .jquery::before {
+.skills-content .center .jquery::before {
     width: 70%;
 }
-.skills-content .right .github::before {
+.skills-content .center .github::before {
     width: 75%;
 }
-.skills-content .right .reat::before {
+.skills-content .center .reat::before {
     width: 40%;
 }
 
-.skills-content .right .dotnet::before {
+.skills-content .center .dotnet::before {
     width: 50%;
 }
 
-.skills-content .right .php::before {
+.skills-content .center.center .php::before {
     width: 30%;
 }
 
-.skills-content .right .mysql::before {
+.skills-content .center .mysql::before {
     width: 40%;
 }
 
