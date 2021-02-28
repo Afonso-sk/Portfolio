@@ -36,7 +36,6 @@ nav{
         width: 100%;
         z-index:200;
         padding: 0px ;
-    
 }
 nav:after{
     content: '';
@@ -64,14 +63,14 @@ nav ul li a{
     padding: 8px 15px ;
     padding-right: 10px;
 }
-/*Efeitos do menu*/
+/*Menu effects*/
 nav ul li a:hover{
     color: cyan;
     border-radius: 5px;
     box-shadow: 0 0 5px #33ffff ;
                 
 }
-/*Tirar os efeitos no submenu*/
+/*Remove the effects in the submenu*/
 nav ul ul li a:hover{
     color:cyan;
     box-shadow: none;
@@ -83,7 +82,7 @@ nav ul ul{
     opacity: 0;
     visibility:hidden;
     transition: top .3s;
-} /*fazer aparecer o submenu*/
+} /*make the submenu appear*/
 nav ul li:hover > ul{
     opacity: 1;
     visibility: visible;
@@ -96,7 +95,6 @@ nav ul ul li{
     float: none;
     display: list-item;
     border-bottom: 1px solid rgba(0,0,0,0.3);
-
 }
 nav ul ul ul li{
     
@@ -105,7 +103,7 @@ top: -70px;;
 left:150px ;
 }
 
-/*Conteúdo principal*/
+/*Main content*/
 .conteudo-principal{
     
     font-size: 16px;
@@ -120,7 +118,7 @@ left:150px ;
     color:whitesmoke;
     
 }
- /*Formatação de botões*/
+ /*Button formatting*/
  .conteudo-principal .descricao{
     margin-bottom: 10px
     
@@ -132,9 +130,6 @@ left:150px ;
     margin-top:30 %;
     font-size: 30px;
     font-family: "Baloo Da 2", serif;
-    
-   
-    
 } 
 .conteudo-principal p{
     margin-top: 15px;
@@ -142,10 +137,8 @@ left:150px ;
 }
 .typed-text{
     color: cyan;
-    
 }
-
-/*Formatação botão*/
+/*Button formatting*/
     .btn{
         background-color: rgb(62, 124, 124);
         border: none;
@@ -155,30 +148,27 @@ left:150px ;
         margin-top:25px;;
         cursor: pointer;
         transition: 1s ease all;
-        font-size: 16px;
-         
-        
-    }/*efeitos do botão*/
+        font-size: 16px;    
+    }/*made of the button*/
     .btn:hover{
         background-color:#fff;
         color:black;
     }
+   /* icon button spacing*/
     .btn i{
-        margin-right: 8px;/*espaçamento do botão com icone*/
+        margin-right: 8px;
     }
-   
+   /*Container 2*/
     .container_2{
         margin-left: 60px;
         text-align: justify;
         margin-bottom: 50px;
-        
-
     }
     .conteudo-principal .container_2{
         width:70% ; /*ocupação do texto  na nossa tela*/
 
     }
-    /*Sobre mim*/
+    /*sobre*/
     .sobre-mim h2{
         
             display: flex;
@@ -186,9 +176,7 @@ left:150px ;
             margin-left: 500px;
             margin-top: 30px;
             padding-top: 10px;
-            
-        
-    }
+      }
     .sobre-mim p{
         
         display: flex;
@@ -198,8 +186,7 @@ left:150px ;
         text-align: justify;
         margin-right: 110px;    
         margin-bottom: -30px;   
-    
-}
+    }
 .sobre-mim img{
         
     margin-top: -150px;
@@ -224,7 +211,7 @@ section {
     background-color:rgb(62, 124, 124, 0.1);
     border: none;
 }
-
+/*Conhecimento*/
 .skills .skills-content,
 .contact .contact-content {
     display: flex;
@@ -234,62 +221,15 @@ section {
     margin-top: 5px;
 }
 .skills .conhecimento{
-    text-align: center;
-    padding-bottom: 20px;
-               
+    text-align: left;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    font-size: 35px;               
 }
-
-section .title {
-    position: relative;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-    font-family: "Baloo Da 2", serif;
-}
-
-section .title::before {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 180px;
-    height: 3px;
-    background: #111;
-    transform: translateX(-50%);
-}
-
-
 
 .skills .skills-content .column {
-    width: calc(50% - 30px);
+    width: calc(40% - 30px);
 }
-
-.skills .skills-content .left .text {
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;   
-}
-
-.skills .skills-content .left a {
-    display: inline-block;
-    background: rgb(62, 124, 124);
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid #fff;
-    transition: all 0.3s ease;
-}
-
-.skills .skills-content .left a:hover {
-    color: #fff;
-    background: black;
-}
-
 .skills .skills-content .right .bars {
     margin-bottom: 15px;
 }
@@ -329,13 +269,14 @@ section .title::before {
     width: 85%;
 }
 .skills-content .right .js::before {
-    width: 60%;
+    width: 70%;
 }
 .skills-content .right .bootstrap::before {
-    width: 75%;
+
+    width: 85%;
 }
 .skills-content .right .jquery::before {
-    width: 60%;
+    width: 70%;
 }
 .skills-content .right .github::before {
     width: 75%;
@@ -345,7 +286,7 @@ section .title::before {
 }
 
 .skills-content .right .dotnet::before {
-    width: 45%;
+    width: 50%;
 }
 
 .skills-content .right .php::before {
