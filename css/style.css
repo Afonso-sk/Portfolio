@@ -26,8 +26,9 @@ nav .logo{
     line-height: 70px;
     padding-left:60px;
 }
-.logo a {
+nav .logo a {
     color: whitesmoke;
+    text-decoration: none;
 }
 /*Menu*/
 nav{
@@ -68,6 +69,7 @@ nav ul li a:hover{
     color: cyan;
     border-radius: 5px;
     box-shadow: 0 0 5px #33ffff ;
+    text-decoration: none;
                 
 }
 /*Remove the effects in the submenu*/
@@ -176,6 +178,7 @@ left:150px ;
             margin-left: 500px;
             margin-top: 30px;
             padding-top: 10px;
+            font-family: 'poppins' , sans-serif;
       }
     .sobre-mim p{
         
@@ -185,7 +188,9 @@ left:150px ;
         margin-top: 30px;
         text-align: justify;
         margin-right: 110px;    
-        margin-bottom: -30px;   
+        margin-bottom: -30px;  
+        font-size: 16px; 
+        font-family: 'poppins' , sans-serif;
     }
 .sobre-mim img{
         
@@ -227,7 +232,8 @@ section {
     text-align: center;
     padding-bottom: 40px;
     margin-top: 20px;
-    font-size: 35px;               
+    font-size: 35px;   
+    font-family: 'poppins' , sans-serif;;            
 }
 /*Conhecimento*/
 
@@ -301,5 +307,162 @@ section {
 .skills-content .center .mysql::before {
     width: 40%;
 }
+ /*Projetos*/
+ .portfolio{
+     background-color: white;
+ }
+ .portfolio__container {
+    max-width: 90%;
+}
 
+.portfolio__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+    .portfolio img {
+      object-fit: cover;
+      width: 100%;
+      height: 300px;
+      vertical-align: middle; }
+  
+  .img-port {
+    padding: 5px; }
+  
+  .portfolio-box-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 4vw;
+    text-align: center;
+    transition: 0.5s; }
+    
+    .portfolio-box-caption:hover {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.8);
+      transition: 0.5s; }
+    .portfolio-box-caption:hover h4, .portfolio-box-caption:hover p {
+    color: #fff; }
+
+    /*Contato*/
+    .contact{
+        background-color::rgb(62, 124, 124, 0.1);
+    }
+    .contact .title::after {
+        content: "get in touch";
+    }
+    
+    .contact .contact-content .column {
+        width: calc(50% - 30px);
+    }
+    
+    .contact .contact-content .text {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .contact .contact-content .left .icons {
+        margin: 10px 0;
+    }
+    
+    .contact .contact-content .row {
+        display: flex;
+        height: 65px;
+        align-items: center;
+    }
+    
+    .contact .contact-content .row .info {
+        margin-left: 30px;
+    }
+    
+    .contact .contact-content .row i {
+        font-size: 25px;
+        color: rgb(62, 124, 124);
+    }
+    
+    .contact .contact-content .info .head {
+        font-weight: 500;
+    }
+    
+    .contact .contact-content .info .sub-title {
+        color: #333;
+    }
+    
+    .contact .right form .fields {
+        display: flex;
+    }
+    
+    .contact .right form .field,
+    .contact .right form .fields .field {
+        height: 45px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .contact .right form .textarea {
+        height: 80px;
+        width: 100%;
+    }
+    
+    .contact .right form .name {
+        margin-right: 10px;
+    }
+    
+    .contact .right form .email {
+        margin-left: 10px;  
+    }
+    
+    .contact .right form .field input,
+    .contact .right form .textarea textarea {
+        height: 100%;
+        width: 100%;
+        border: 1px solid lightgrey;
+        border-radius: 6px;
+        outline: none;
+        padding: 0 15px;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        transition: all 0.3s ease;
+    }
+    
+    .contact .right form .field input:focus,
+    .contact .right form .textarea textarea:focus {
+        border-color: #b3b3b3;
+    }
+    
+    .contact .right form .textarea textarea {
+        padding-top: 10px;
+        resize: none;
+    }
+    
+    .contact .right form .button {
+        height: 47px;
+        width: 170px;
+    }
+    
+    .contact .right form .button button {
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgb(62, 124, 124);
+        background: rgb(62, 124, 124);;
+        color: #fff;
+        outline: none;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .contact .right form .button button:hover {
+        color:rgb(62, 124, 124);
+        background: none;
+    }
  
