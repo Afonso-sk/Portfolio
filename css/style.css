@@ -32,12 +32,14 @@ nav .logo a {
 }
 /*Menu*/
 nav{
-    background:#1b1b1b;
+    background:rgba(19, 17, 17, 0.7);
     position: fixed;
         width: 100%;
         z-index:200;
         padding: 0px ;
+        transition: all 0.3s ease;
 }
+
 nav:after{
     content: '';
     clear: both;
@@ -52,7 +54,7 @@ nav ul{
 nav ul li{
     float: left;
     display: inline-block;
-    background-color: #1b1b1b;
+    background-color: rgba(19, 17, 17,);
     margin: 0  5px;
     margin-top: 10px;
 }
@@ -96,7 +98,7 @@ nav ul ul li{
     width: 150px;
     float: none;
     display: list-item;
-    border-bottom: 1px solid rgba(0,0,0,0.3);
+    border-bottom: 1px solid rgba(19, 17, 17, 0.7);
 }
 nav ul ul ul li{
     
@@ -464,5 +466,11 @@ section {
     .contact .right form .button button:hover {
         color:rgb(62, 124, 124);
         background: none;
+    }
+    /*footer*/
+    #footer{
+        background-color:#2c2423;
+        color: #fff;
+        padding: 20px;
     }
  
