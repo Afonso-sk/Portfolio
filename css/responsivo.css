@@ -1,6 +1,6 @@
 /*estou a dizer que quando a minha tela ficar muito pequeno para
 jogar o menu pra baixo da logo*/
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
 
     /*mandar os botões para baixo quando a tela ficar muito pequena*/
     .btn{
@@ -10,22 +10,10 @@ jogar o menu pra baixo da logo*/
     }
     .conteudo-principal .container_2{
         width:70%;}
-    .sobre-mim h2{
-        display: flex;/*colocar tudo na mesma linha*/
-        flex-direction: column;
-        margin-bottom: 30px;
-        margin-left: 150px;  
-        margin-top: 0px;
-    }
-    .sobre-mim p{
-        display: flex;/*colocar tudo na mesma linha*/
-        flex-direction: column;
-        margin-bottom: -30px;
-        margin-left: 40px;  
-        margin-right: 40px;
-    }
+    
+  
     .div__container_profile-img img {
-        margin-left: -8px;
+        margin-left:0px;
     }
    
         
