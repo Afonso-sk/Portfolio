@@ -1,18 +1,15 @@
 /*estou a dizer que quando a minha tela ficar muito pequeno para
 jogar o menu pra baixo da logo*/
 @media screen and (max-width:700px){
-    .logo{
-        display: flex;/*colocar tudo na mesma linha*/
-        flex-direction: column;
-        margin-bottom: -30px;
-        margin-left: 0px;  
-    }
+
     /*mandar os botões para baixo quando a tela ficar muito pequena*/
     .btn{
         margin-top:  5px; /*espaçamento entre os botões para não ficarem colados*/
         width: 200px;
         margin-top: 20px;;
     }
+    .conteudo-principal .container_2{
+        width:60%;}
     .sobre-mim h2{
         display: flex;/*colocar tudo na mesma linha*/
         flex-direction: column;
@@ -34,6 +31,10 @@ jogar o menu pra baixo da logo*/
         align-items: center;
         
     }
+    .button{
+        margin-top: 40px;
+        margin-left: -20px;
+    }
     .skills .conhecimento{
       
         font-size: 25px;               
@@ -43,8 +44,7 @@ jogar o menu pra baixo da logo*/
     }
     .skills .skills-content,
 .contact .contact-content {
-    margin-left: -15px;
-    
+    margin-left: -15px;    
     
 }
 }
@@ -59,6 +59,7 @@ jogar o menu pra baixo da logo*/
     text-align: justify;
 }
 }
+
 
     
     
