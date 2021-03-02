@@ -121,6 +121,7 @@ left:150px ;
     align-items: flex-start;/*para que elementos comecem sempre da esquerda*/
     color:whitesmoke;
     
+    
 }
  /*Button formatting*/
  .conteudo-principal .descricao{
@@ -168,8 +169,17 @@ left:150px ;
         text-align: justify;
         margin-bottom: 50px;
     }
+    .container_2{
+        margin-left: 60px;
+
+    }
     .conteudo-principal .container_2{
         width:70% ; /*ocupação do texto  na nossa tela*/
+
+    }
+    .conteudo-principal .container_2 .text span{
+        color: cyan;
+        font-weight: 500;
 
     }
     /*sobre*/
